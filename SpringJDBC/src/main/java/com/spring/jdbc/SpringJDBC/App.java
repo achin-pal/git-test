@@ -11,7 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class App {
 	public static void main(String[] args) {
-//		ApplicationContext app = new ClassPathXmlApplicationContext("configau_com.xml");
+//	hi	ApplicationContext app = new ClassPathXmlApplicationContext("configau_com.xml");
 		ApplicationContext app = new AnnotationConfigApplicationContext(JavaConfig.class);
 		StudentDao ss = (StudentDaoImpl) app.getBean(StudentDaoImpl.class);
 //		Student st = new Student();
